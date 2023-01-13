@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="queries.css" />
+		<title>Component</title>
+	</head>
+	<body>
+		<section class="section-progress">
+			<aside class="aside">
+				<h2 class="heading-secondary">Trackning our progress</h2>
+				<p class="content-text">
+					As a data-driven company, we believe it is critical to regularly track
+					our progress. While the work is never done. We want to be transparent
+					with what we've accomnplished and where we're going.
+				</p>
+				<div class="progress-identifiers">
+					<p class="progress-identifier">
+						<ion-icon name="ellipse" class="icon"></ion-icon>
+						<span>achieved</span>
+					</p>
+					<p class="progress-identifier">
+						<ion-icon name="contrast" class="icon"></ion-icon>
+						<span>in progress</span>
+					</p>
+					<p class="progress-identifier">
+						<ion-icon name="ban" class="icon"></ion-icon>
+						<span>missed</span>
+					</p>
+				</div>
+
+				<nav class="navigation">
+					<ul>
+						<li>
+							<a href="#" class="navigation--active">Net-zero emissions</a>
+						</li>
+						<li><a href="#">Circular economy</a></li>
+						<li><a href="#">Water stewardship</a></li>
+					</ul>
+				</nav>
+			</aside>
+			<div class="article__image"></div>
+			<div class="article__content">
+				<header class="article-header">
+					<h4>Net-zero emissions</h4>
+					<button>Learn more</button>
+				</header>
+				<div class="article-container">
+					<div class="article-card-header">
+						<p class="title">target</p>
+						<div class="status">
+							<p class="title">deadline</p>
+							<p class="title">status</p>
+						</div>
+						<p class="title">progress</p>
+					</div>
+					<!-- 01 -->
+					<div class="article-card-section">
+						<div class="target">
+							<p class="target__title">Energy</p>
+							<p class="target__text">
+								Math 100% of the electricity consumption of our operations with
+								renewable energy purchases.
+							</p>
+						</div>
+						<div class="status">
+							<p class="deadline">2021</p>
+							<div class="icon-box">
+								<ion-icon name="ellipse" class="icon"></ion-icon>
+							</div>
+						</div>
+						<div class="progress">
+							<p class="progress__text">
+								In 2021, we purchased enough renewable energy from sucess such
+								as wind and solar to match 100% of the electricity consumption
+								of our data centers and offices
+							</p>
+							<a href="#" class="progress__link">Learn more</a>
+						</div>
+					</div>
+
+					<!-- 02 -->
+					<div class="article-card-section">
+						<div class="target">
+							<p class="target__title">GHG emissions</p>
+							<p class="target__text">
+								Achieve net-zero emissions across all of our operations and
+								value chain, including our consumer hardware products, by 2030.
+							</p>
+						</div>
+						<div class="status">
+							<p class="deadline">2030</p>
+							<div class="icon-box">
+								<ion-icon name="contrast" class="icon"></ion-icon>
+							</div>
+						</div>
+						<div class="progress">
+							<p class="progress__text">
+								We're working toward this target. We aim to reduce the majority
+								of our emissions (versus our 2019 baseline) before 2030 and plan
+								to invest in nature-based and technology-based carbon removal
+								solutions to neutrilized our remaining emissions.
+							</p>
+							<a href="#" class="progress__link">Learn more</a>
+						</div>
+					</div>
+
+					<!-- 03 -->
+					<div class="article-card-section">
+						<div class="target">
+							<p class="target__title">Products</p>
+							<p class="target__text">
+								Help 1 billion people make more sustainable choices through our
+								core products by 2022.
+							</p>
+						</div>
+						<div class="status">
+							<p class="deadline">2022</p>
+							<div class="icon-box">
+								<ion-icon name="contrast" class="icon"></ion-icon>
+							</div>
+						</div>
+						<div class="progress">
+							<p class="progress__text">
+								We're working toward this target. In 2021, we shared several new
+								ways people can use Google products to make more sustainable
+								choices.
+							</p>
+							<a href="#" class="progress__link">View products</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Ionicons -->
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+		></script>
+	</body>
+</html>
